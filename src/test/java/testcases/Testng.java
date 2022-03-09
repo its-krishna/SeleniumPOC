@@ -64,8 +64,7 @@ public class Testng {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 		} else if (browser.equals("firefox")) {
-			System.setProperty("webdriver.gecko.driver", "/Users/psb/Documents/eclipse-workspace/geckodriver"); 
-//			WebDriverManager.firefoxdriver().setup();
+			System.setProperty("webdriver.gecko.driver", "geckodriver"); 
 			driver = new FirefoxDriver(); 
 		} else {
 			System.out.println("incorrect browser name");
