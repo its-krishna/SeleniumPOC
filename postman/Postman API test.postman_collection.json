@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "361fb728-2aa4-4f05-b556-cd744e1f4359",
-		"name": "Postman API test",
+		"_postman_id": "a10fdbd3-c4b8-40b2-9350-d5cb5157a087",
+		"name": "Postman Testing_WorkingLocal",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -72,7 +72,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "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",
+							"value": "{{KS_TOKEN}}",
 							"type": "string"
 						}
 					]
@@ -134,7 +134,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "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",
+							"value": "{{KS_TOKEN}}",
 							"type": "string"
 						}
 					]
@@ -194,7 +194,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "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",
+							"value": "{{KS_TOKEN}}",
 							"type": "string"
 						}
 					]
